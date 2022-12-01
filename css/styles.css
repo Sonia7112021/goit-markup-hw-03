@@ -42,6 +42,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: inherit;
+  list-style: none;
 }
 .head-they {
   font-weight: 900;
@@ -77,6 +78,7 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: inherit;
+  list-style: none;
 }
 .color {
   color: var(--text-white);
@@ -124,4 +126,24 @@ body {
   color: var(--text-white);
 
   font-style: normal;
+}
+.wrapper {
+  max-width: 145px;
+  margin: 0;
+}
+.flex-nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+.site-nav {
+  border-bottom: 2px solid;
+}
+.flex-inner-nav {
+  display: flex;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  padding: 0%;
 }
