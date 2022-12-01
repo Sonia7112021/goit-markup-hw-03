@@ -18,6 +18,7 @@ body {
 
   letter-spacing: 0.06em;
   color: inherit;
+  list-style: none;
 }
 
 .header-secondary {
@@ -129,7 +130,7 @@ body {
   font-style: normal;
 }
 .wrapper {
-  max-width: 145px;
+  max-width: 270px;
   margin: 0;
 }
 .flex-nav-container {
@@ -149,8 +150,30 @@ body {
   display: flex;
   list-style: none;
   padding: 0%;
-  margin-left: 93px;
+  margin-left: 30px;
+  margin-top: 32px;
 }
 .nav-links li {
   margin: 46px;
+}
+.flex-loren h3 li {
+  display: flex;
+  list-style: none;
+  padding: 10%;
+  margin: 30px;
+  align-items: center;
+  background-origin: padding-box;
+  border: 30px;
+}
+.boxx {
+  max-width: 120;
+  margin: 0%;
+  outline: auto;
+  padding: 45px;
+}
+.headdeerr {
+  max-width: 1600px;
+  margin: 0%;
+  outline: auto;
+  max-height: 600px;
 }
