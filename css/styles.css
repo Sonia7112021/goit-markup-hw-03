@@ -23,6 +23,7 @@ body {
 .header-secondary {
   color: var(--text-grey);
   text-decoration: none;
+  list-style: none;
 }
 
 .filter-buttons {
@@ -134,16 +135,22 @@ body {
 .flex-nav-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .site-nav {
   border-bottom: 2px solid;
 }
 .flex-inner-nav {
   display: flex;
+  align-items: center;
 }
 
 .nav-links {
   display: flex;
   list-style: none;
   padding: 0%;
+  margin-left: 93px;
+}
+.nav-links li {
+  margin: 46px;
 }
