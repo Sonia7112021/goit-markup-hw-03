@@ -130,8 +130,8 @@ body {
   font-style: normal;
 }
 .wrapper {
-  max-width: 270px;
-  margin: 0;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .flex-nav-container {
   display: flex;
@@ -166,6 +166,7 @@ body {
   border: 30px;
 }
 .boxx {
+  display: flex;
   max-width: 120;
   margin: 0%;
   outline: auto;
