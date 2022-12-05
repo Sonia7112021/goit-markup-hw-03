@@ -128,11 +128,9 @@ body {
   color: var(--text-white);
 
   font-style: normal;
+  list-style: none;
 }
-.wrapper {
-  max-width: 1200px;
-  margin: 0 auto;
-}
+
 .flex-nav-container {
   display: flex;
   justify-content: space-between;
@@ -167,14 +165,26 @@ body {
 }
 .boxx {
   display: flex;
-  max-width: 120;
+  width: 120;
   margin: 0%;
   outline: auto;
-  padding: 45px;
+  padding: 0;
 }
 .headdeerr {
   max-width: 1600px;
   margin: 0%;
   outline: auto;
   max-height: 600px;
+}
+.flex-3 {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+.child {
+  background: #2f303a;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
 }
