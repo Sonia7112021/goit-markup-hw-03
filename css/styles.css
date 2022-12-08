@@ -196,3 +196,10 @@ h2 h3 h4 p {
 .section {
   padding: 94px 0;
 }
+.flex-4 {
+  display: flex;
+  column-gap: 30px;
+  row-gap: 94px;
+  gap: 30px;
+  list-style: none;
+}
