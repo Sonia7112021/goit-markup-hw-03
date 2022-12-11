@@ -25,6 +25,7 @@ body {
   color: var(--text-grey);
   text-decoration: none;
   list-style: none;
+  margin-left: auto;
 }
 
 .filter-buttons {
@@ -36,6 +37,7 @@ body {
   cursor: pointer;
   color: inherit;
   font-style: normal;
+  margin-left: auto;
 }
 .header-secondary-section {
   font-weight: 700;
@@ -72,6 +74,7 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: inherit;
+  margin-right: 94px;
 }
 .logo {
   font-weight: 500;
@@ -81,6 +84,7 @@ body {
   text-decoration: none;
   color: inherit;
   list-style: none;
+  margin-right: 94px;
 }
 .color {
   color: var(--text-white);
@@ -133,8 +137,8 @@ body {
 
 .flex-nav-container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: flex-start;
 }
 .site-nav {
   border-bottom: 2px solid;
@@ -188,6 +192,7 @@ body {
   width: 1200px;
   margin: 0 auto;
   padding: 0;
+  margin-left: auto;
 }
 h2 h3 h4 p {
   padding: 0;
