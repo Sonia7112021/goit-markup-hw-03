@@ -223,5 +223,4 @@ h2 h3 h4 p {
   display: flex;
   justify-content: center;
   text-align-last: center;
-  gap: 50px;
 }
