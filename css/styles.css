@@ -223,4 +223,21 @@ h2 h3 h4 p {
   display: flex;
   justify-content: center;
   text-align-last: center;
+  flex-wrap: wrap;
+  vertical-align: middle;
+}
+
+.git {
+  background: #2196f3;
+  text-decoration-color: #ffffff;
+}
+.hit {
+  border-left: #757575;
+  border-right: #757575;
+  text-align: left;
+  vertical-align: bottom;
+  border-bottom: #757575;
+}
+.middle img {
+  vertical-align: bottom;
 }
