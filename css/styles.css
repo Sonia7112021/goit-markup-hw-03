@@ -22,6 +22,8 @@ body {
   margin-left: auto;
   column-gap: 50px;
   text-align: left;
+  letter-spacing: 0.03em;
+  padding: 20px 20px;
 }
 .filter-buttons {
   font-weight: 500;
@@ -237,14 +239,14 @@ h2 h3 h4 p {
   margin-bottom: 50px;
 }
 .photo-one {
-  padding: 20px 10px;
+  padding: 20px 30px;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 0, 5px;
+  line-height: 2px;
   letter-spacing: 0.06em;
   text-align: left;
-  padding-left: 0%;
+  padding-left: 20px;
 }
 .flex-4 {
   display: flex;
@@ -353,9 +355,17 @@ h2 h3 h4 p {
 .middle {
   display: flex;
   justify-content: center;
-  text-align-last: center;
+
   flex-wrap: wrap;
   vertical-align: middle;
+  gap: 30px;
+  list-style: none;
+}
+.middle li {
+  background-color: var(--text-white);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 0px 0px;
 }
 .git {
   background: #2196f3;
