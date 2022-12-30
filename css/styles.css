@@ -23,7 +23,8 @@ body {
   column-gap: 50px;
   text-align: left;
   letter-spacing: 0.03em;
-  padding: 20px 20px;
+  padding: 8px 20px;
+  margin-bottom: 20px;
 }
 .filter-buttons {
   font-weight: 500;
@@ -360,6 +361,19 @@ h2 h3 h4 p {
   vertical-align: middle;
   gap: 30px;
   list-style: none;
+}
+.mitte {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+
+  flex-wrap: wrap;
+  vertical-align: middle;
+  gap: 30px;
+  list-style: none;
+}
+.hoveraa {
+  background-color: var(--text-blue);
 }
 .middle li {
   background-color: var(--text-white);
