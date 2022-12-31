@@ -26,6 +26,13 @@ body {
   padding: 8px 20px;
   margin-bottom: 20px;
 }
+.header-seco {
+  color: var(--text-grey);
+  text-decoration: none;
+  list-style: none;
+  margin-left: auto;
+  column-gap: 50px;
+}
 .filter-buttons {
   font-weight: 500;
   font-size: 16px;
@@ -245,7 +252,7 @@ body {
   letter-spacing: 0.03em;
 }
 .photo-one {
-  padding: 20px 30px;
+  padding: 35px 30px;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -388,11 +395,13 @@ body {
   text-decoration-color: #ffffff;
 }
 .hit {
-  border-left: #757575;
-  border-right: #757575;
+  border-left: var(--text-grey);
+  border-right: var(--text-grey);
   text-align: left;
   vertical-align: bottom;
-  border-bottom: #757575;
+  border-bottom: var(--text-grey);
+  border: 1px solid #eeeeee;
+  border-top: 100px;
 }
 .middle img {
   vertical-align: bottom;
