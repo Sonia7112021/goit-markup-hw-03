@@ -24,7 +24,7 @@ body {
   text-align: left;
   letter-spacing: 0.03em;
   padding: 8px 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .header-secon {
   color: var(--text-grey);
@@ -190,12 +190,12 @@ body {
 
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 66;
+  line-height: 1.66;
   text-align: center;
   letter-spacing: 0.03em;
 }
 .photo-one {
-  padding: 35px 30px;
+  padding: 10px 30px;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
