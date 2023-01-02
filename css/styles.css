@@ -26,7 +26,7 @@ body {
   padding: 8px 20px;
   margin-bottom: 20px;
 }
-.header-seco {
+.header-secon {
   color: var(--text-grey);
   text-decoration: none;
   list-style: none;
@@ -373,6 +373,9 @@ body {
   vertical-align: middle;
   gap: 30px;
   list-style: none;
+}
+.mittle img {
+  vertical-align: bottom;
 }
 .mitte {
   margin-bottom: 50px;
